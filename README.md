@@ -22,6 +22,7 @@ Both standard memory tools and this app read /proc interface, but this program g
 
 https://www.kernel.org/doc/Documentation/vm/pagemap.txt
 
+![Alt text](/gui.png?raw=true "gui")
 
 ![Alt text](/console.png?raw=true "console")
 
