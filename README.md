@@ -3,13 +3,13 @@ App calculates how much RAM (aka RSS) a process or group of processes (browser, 
 
 ### Run
 
-1. open Release/ui_graphical/ and copy ui_graphical executable file to another directory if you want
+1. open `Release/ui_graphical/` and copy `ui_graphical` executable file to another directory if you want
 2. open terminal (ctrl+alt+t), go to the directory with the executable
-3. run
-   $ chmod +x ui_graphical // grant permissions for every user to access file
-   $ sudo ./ui_graphical  // run app as superuser (aka root) - needed to read files in /proc directory
+3. run <br />
+   $ `chmod +x ui_graphical` // grant permissions for every user to access file <br />
+   $ `sudo ./ui_graphical`  // run app as superuser (aka root) - needed to read files in /proc directory
 
-*  use same for console version
+*use same steps for console version
 
 ### Why  
 
