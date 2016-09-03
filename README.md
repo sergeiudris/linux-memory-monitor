@@ -27,7 +27,7 @@ To answer the question how much RAM does a group of processes occupy.
 
 ### How 
 
-Both standard memory tools and this app read /proc interface, but this program goes further: it utilizes
+Both standard memory tools and this app read `/proc` interface, but this program goes further: it utilizes
 `/proc/processid/pagemap` to connect frames (physical memory segments)  with pages (virtual memory segments),
 and then filter them, leaving only unique and present (not swapped out).
 
