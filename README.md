@@ -1,5 +1,8 @@
-# linux-memory-monitor
-App calculates how much RAM (aka RSS) a process or group of processes (browser, database,etc.) uses. Solves "shared memory multiple times" problem of standard tools
+## Linux memory monitor
+
+App calculates how much RAM (aka RSS) a process or group of processes (browser, database,etc.) occupies. 
+
+Solves "shared memory multiple times" problem of standard tools.
 
 ### Run
 
