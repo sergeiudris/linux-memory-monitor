@@ -1,9 +1,14 @@
 ## Linux memory monitor
 
-App calculates how much RAM (aka RSS) a process or group of processes (browser, database,etc.) occupies. 
+App monitors RAM usage of a process or *group* of processes (browser, database,etc.). 
 
 Solves "shared memory multiple times" problem of standard tools.
 
+Both standard memory tools and this app read `/proc` interface, but this program goes further: it utilizes
+`/proc/processid/pagemap` to connect frames (physical memory segments)  with pages (virtual memory segments),
+and then filter them, leaving only unique and present (not swapped out).
+
+https://www.kernel.org/doc/Documentation/vm/pagemap.txt
 
 [Download console version executable](https://github.com/serge-joggen/linux-memory-monitor/releases/download/v0.1/ui_console)
 
@@ -24,19 +29,6 @@ Solves "shared memory multiple times" problem of standard tools.
    $ sudo ./ui_graphical       # run app as superuser (aka root) - needed to read files in /proc directory
 ```
 *  use same for console version
-
-### Why  
-
-To answer the question how much RAM does a group of processes occupy. 
-
-### How 
-
-Both standard memory tools and this app read `/proc` interface, but this program goes further: it utilizes
-`/proc/processid/pagemap` to connect frames (physical memory segments)  with pages (virtual memory segments),
-and then filter them, leaving only unique and present (not swapped out).
-
-https://www.kernel.org/doc/Documentation/vm/pagemap.txt
-
 
 
 ### License
