@@ -11,9 +11,9 @@ and then filter them, leaving only unique and present (not swapped out).
 https://www.kernel.org/doc/Documentation/vm/pagemap.txt
 
 
-[Download console version executable](https://github.com/mvstory/linux-memory-monitor/releases/download/v0.1/ui_console)
+[Download console version executable](https://github.com/sergeiudris/linux-memory-monitor/releases/download/v0.1/ui_console)
 
-[Download GUI version executable](https://github.com/mvstory/linux-memory-monitor/releases/download/v0.1/ui_graphical)
+[Download GUI version executable](https://github.com/sergeiudris/linux-memory-monitor/releases/download/v0.1/ui_graphical)
 
 
 ![Alt text](/gui.png?raw=true "gui")
@@ -35,4 +35,4 @@ https://www.kernel.org/doc/Documentation/vm/pagemap.txt
 
 ### License
 
-Copyright © 2015 mvstory  The app  is licensed under [GPL3](http://www.gnu.org/licenses/gpl-3.0.html)
+Copyright © 2015 sergeiudris  The app  is licensed under [GPL3](http://www.gnu.org/licenses/gpl-3.0.html)
