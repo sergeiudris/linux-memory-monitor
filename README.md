@@ -20,17 +20,20 @@ https://www.kernel.org/doc/Documentation/vm/pagemap.txt
 
 ![Alt text](/console.png?raw=true "console")
 
+### Dev
 
-### Run
-
-1. open `Release/ui_graphical/` and copy `ui_graphical` executable file to another directory if you want
-2. open terminal (ctrl+alt+t), go to the directory with the executable
-3. run commands:
 ```shell
-   $ chmod +x ui_graphical     # grant permissions for every user to access file
-   $ sudo ./ui_graphical       # run app as superuser (aka root) - needed to read files in /proc directory
+
+
+$ sudo apt install build-essential
+$ sudo apt install qtcreator
+$ sudo apt install qt5-default
+
+$ git clone https://github.com/sergeiudris/linux-memory-monitor
+
+# open project and 'build'
+
 ```
-*  use same for console version
 
 
 ### License
