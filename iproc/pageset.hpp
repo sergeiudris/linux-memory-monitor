@@ -1,7 +1,7 @@
 /****************************************************************************
 **
 ** Copyright (C) 2016 Serge Joggen.
-** Contact: serge.joggen@gmail.com
+** Contact: sergei.udris@gmail.com
 **
 ** This file is part of Linux Memory Monitor
 ** Program uses /proc interface to calculate precise RAM usage for a group of processes,
