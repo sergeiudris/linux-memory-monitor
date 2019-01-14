@@ -1,6 +1,6 @@
 /****************************************************************************
 **
-** Copyright (C) 2016 Serge Joggen.
+** Copyright (C) 2016 sergeiudris
 ** Contact: sergei.udris@gmail.com
 **
 ** This file is part of Linux Memory Monitor
