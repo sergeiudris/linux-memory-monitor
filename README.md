@@ -11,11 +11,6 @@ and then filter them, leaving only unique and present (not swapped out).
 https://www.kernel.org/doc/Documentation/vm/pagemap.txt
 
 
-[Download console version executable](https://github.com/sergeiudris/linux-memory-monitor/releases/download/v0.1/ui_console)
-
-[Download GUI version executable](https://github.com/sergeiudris/linux-memory-monitor/releases/download/v0.1/ui_graphical)
-
-
 ![Alt text](/gui.png?raw=true "gui")
 
 ![Alt text](/console.png?raw=true "console")
