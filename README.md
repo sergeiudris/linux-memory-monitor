@@ -4,4 +4,3 @@
 - a one-off elsewhere-useless situational solution
 - but made with a pinch of curiosity and effort
 - [screenshots](./docs/preview.md)
-- [dev](./docs/dev.md)
