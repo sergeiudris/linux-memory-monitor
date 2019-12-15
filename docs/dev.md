@@ -1,8 +1,9 @@
 - app monitors RAM usage of a process or *group* of processes (browser, database,etc.).
 - intended to answer "shared memory multiple times" problem/
   - both standard memory tools and this app read `/proc` interface
-  - this app uses `/proc/processid/pagemap` to connect frames (physical memory segments)  with pages (virtual memory segments),
-  - then filters them, leaving only unique and present (not swapped out)
+  - app uses /proc/processid/pagemap to connect frames (physical memory segments) 
+    with pages (virtual memory segments)
+  - then filters out 'swapped out', keeping only 'unique' and 'present'
 - some info https://www.kernel.org/doc/Documentation/vm/pagemap.txt
 <br/>
 <br/>
