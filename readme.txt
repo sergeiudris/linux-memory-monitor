@@ -22,4 +22,4 @@ Both standard memory tools and this program read /proc interface, but this progr
 
 https://www.kernel.org/doc/Documentation/vm/pagemap.txt
 
-Build: will be derived from existing programs.
+Build: will take from existing programs.
