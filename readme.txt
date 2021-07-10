@@ -23,4 +23,4 @@ Both standard memory tools and this program read /proc interface, but this progr
 https://www.kernel.org/doc/Documentation/vm/pagemap.txt
 
 Build: will take from existing programs.
-Logic: don't change program's logic, only build - like Starcraft: Remastered
+Logic: don't change program's logic, only build - like Starcraft: Remastered, bugs part of the game
