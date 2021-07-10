@@ -13,7 +13,7 @@
  :aliases
  {:main
   {:jvm-opts ["-Dclojure.core.async.pool-size=1" "-Dclojure.compiler.direct-linking=true"]
-   :main-opts ["-m" "linux-memory-monitor.main"]}
+   :main-opts ["-m" "ipfs-shipyard.find.main"]}
 
   :repl
   {:extra-deps {github.cljctools/deps-repl {:git/url "https://github.com/cljctools/deps-repl"
@@ -22,7 +22,7 @@
                 nrepl/nrepl {:mvn/version "0.8.3"}
                 cider/cider-nrepl {:mvn/version "0.25.5"}}
    :main-opts ["-m" "lambdaisland.nrepl.main"
-               "--init-ns" "linux-memory-monitor.main"
+               "--init-ns" "ipfs-shipyard.find.main"
                "--port" "7788"
                "--bind" "0.0.0.0"
                "--middleware" "cider.nrepl/cider-middleware"]}

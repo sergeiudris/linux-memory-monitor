@@ -43,8 +43,8 @@
                               [cider/cider-nrepl "0.24.0"]]}
 
              :prod ^:leaky {:main ~MAIN
-                            :uberjar-name "program-standalone.jar"
-                            :jar-name     "program.jar"
+                            :uberjar-name "find-standalone.jar"
+                            :jar-name     "find.jar"
                             :uberjar-exclusions []
                             :jvm-opts ["-Dclojure.compiler.direct-linking=true" "-Dclojure.core.async.pool-size=1"]
                             :aot  nil #_[datastore.serdes]}
