@@ -24,3 +24,4 @@ https://www.kernel.org/doc/Documentation/vm/pagemap.txt
 
 Build: will take from existing programs.
 Language: clojure.
+Runtime: gui binary - JVM, command line binary - GraalVM native image
