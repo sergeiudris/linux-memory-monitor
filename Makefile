@@ -20,6 +20,5 @@ lein-uberjar:
 	lein with-profiles +prod uberjar 
 # java -Dclojure.core.async.pool-size=1 -jar target/find-standalone.jar	
 
-lein-native:
+native:
 	lein native-image
-
