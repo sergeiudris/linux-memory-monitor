@@ -12,13 +12,13 @@ repl:
 depstar-uberjar:
 	clojure -X:depstar uberjar \
     :aot true \
-    :jar target/find.jar \
+    :jar target/program.jar \
     :verbose true \
-    :main-class ipfs-shipyard.find.main
+    :main-class linux-memory-monitor.main
 
 lein-uberjar:
 	lein with-profiles +prod uberjar 
-# java -Dclojure.core.async.pool-size=1 -jar target/find-standalone.jar	
+# java -Dclojure.core.async.pool-size=1 -jar target/program-standalone.jar	
 
 lein-native:
 	lein native-image
