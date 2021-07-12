@@ -15,8 +15,6 @@
   $ sudo apt install qtcreator
   $ sudo apt install qt5-default
 
-  $ git clone https://github.com/sergeiudris/linux-memory-monitor
-
   # open project and 'build'
 
   ```
