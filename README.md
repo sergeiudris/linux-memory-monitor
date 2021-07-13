@@ -24,6 +24,13 @@ $ sudo apt install build-essential
 $ sudo apt install qtcreator
 $ sudo apt install qt5-default
 
+$ git clone https://github.com/sergeiudris/linux-memory-monitor
+
 # open project and 'build'
 
 ```
+
+
+### License
+
+Copyright © 2015 sergeiudris  The app  is licensed under [GPL3](http://www.gnu.org/licenses/gpl-3.0.html)
